@@ -1,0 +1,75 @@
+body {
+    background-color: #001f3f
+}
+
+h1 {
+    margin: 0;
+}
+
+span {
+    color: #A0522D;
+}
+
+#thejqs {
+    padding-top: 15%;
+    font-size: 200%;
+    font-family: "Josefin Sans";
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.thejqs-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.thejqs-choice {
+    color: black;
+    font-family: "Josefin Sans";
+    text-align: center;
+    font-size: 125%;
+    width: 35%;
+    margin: auto;
+}
+
+.thejqs-words {
+    color: #ffffff;
+    text-align: center;
+    width: 75%;
+    font-family: "Josefin Sans";
+    font-size: 150%;
+    margin: auto;
+    /*padding-top: 5%;*/
+}
+
+.page-id {
+    color: #A0522D;
+    width: 20%;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 200%;
+    font-family: "Josefin Sans", sans-serif;
+    margin: auto;
+}
+
+.portfolio-image {
+    height: 250px;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 3%;
+    border: 1px solid #ffffff;
+}
+
+.me {
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.thejqs-front {
+    margin-top: 10%;
+}
