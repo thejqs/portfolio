@@ -1,5 +1,43 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module h2 {
+    margin-bottom: 40px;
+    font-family: "Josefin Sans";
+}
+
+section.module.dev {
+    margin-bottom: 40px;
+}
+
+section.module.content {
+    margin-bottom: 40px;
+}
+
 body {
-    background-color: #001f3f
+    background-color: #2F4F4F;
+}
+
+section.module.parallax {
+    height: 305px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 2%;
+}
+
+section.module.parallax1 {
+    background-image: url("../img/arthur_film.png");
+}
+
+section.module.parallax2 {
+    background-image: url("../img/contillo.png");
 }
 
 h1 {
@@ -10,7 +48,7 @@ h1 {
     width: 65%;
 }
 
-h3 {
+h2 {
     margin-left: 2%;
 }
 
@@ -41,6 +79,7 @@ span {
     font-size: 125%;
     width: 35%;
     margin: auto;
+    margin-top: 2%;
 }
 
 .thejqs-words {
@@ -50,6 +89,17 @@ span {
     font-family: "Josefin Sans";
     font-size: 150%;
     margin: auto;
+    margin-top: 7%;
+}
+
+.about-words {
+    color: #ffffff;
+    text-align: left;
+    width: 75%;
+    font-family: "Josefin Sans";
+    font-size: 150%;
+    margin: auto;
+    margin-top: 2%;
 }
 
 .page-id {
@@ -67,7 +117,7 @@ span {
 }
 
 .portfolio-image {
-    width: 200px;
+    width: 175px;
     display: inline-block;
     margin-left: 0;
     margin-right: 2%;
@@ -79,6 +129,7 @@ span {
     height: 300px;
     display: block;
     margin: auto;
+    margin-top: 1%;
     border: 1px solid white;
 }
 
@@ -88,7 +139,7 @@ span {
 
 .portfolio-header {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 150%;
+    font-size: 200%;
     color: #A0522D;
     margin-top: 3%;
     margin-bottom: 1%;
@@ -104,22 +155,29 @@ ul li {
     display: inline;
 }
 
+ul p {
+    display: inline;
+}
+
+.dev {
+    margin-bottom: 7%;
+}
+
 .writing {
     padding-bottom: 2%;
 }
 
 .writing-details {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 100%;
+    font-size: 150%;
     color: #ffffff;
-    line-height: 110%;
+    line-height: 105%;
     margin-left: 5%;
 }
 
 .writing-story {
     text-decoration: none;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 100%;
     color: #A0522D;
     line-height: 105%;
 }
