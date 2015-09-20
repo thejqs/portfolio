@@ -1,5 +1,5 @@
 .container {
-    max-width: 960px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -22,22 +22,26 @@ section.module.content {
 
 body {
     background-color: #2F4F4F;
+    margin: 0;
 }
 
 section.module.parallax {
-    height: 305px;
+    height: 250px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-bottom: 2%;
+    /*border: 1px solid blue;*/
 }
 
 section.module.parallax1 {
-    background-image: url("../img/arthur_film.png");
+    background-image: url("../img/pgh.jpg");
+    background-size: 100%;
 }
 
 section.module.parallax2 {
-    background-image: url("../img/contillo.png");
+    background-image: url("../img/unsplash4.jpg");
+    background-size: 100%;
 }
 
 h1 {
@@ -49,7 +53,8 @@ h1 {
 }
 
 h2 {
-    margin-left: 2%;
+    margin: auto;
+    display: inline-block;
 }
 
 span {
@@ -82,6 +87,15 @@ span {
     margin-top: 2%;
 }
 
+.thejqs-choice-about {
+    color: black;
+    font-family: "Josefin Sans";
+    text-align: center;
+    font-size: 125%;
+    width: 35%;
+    margin: auto;
+}
+
 .thejqs-words {
     color: #ffffff;
     text-align: center;
@@ -110,6 +124,7 @@ span {
     font-size: 200%;
     font-family: "Josefin Sans", sans-serif;
     margin-left: 40%;
+    margin-bottom: 2%;
 }
 
 .dev {
@@ -117,7 +132,7 @@ span {
 }
 
 .portfolio-image {
-    width: 175px;
+    width: 15%;
     display: inline-block;
     margin-left: 0;
     margin-right: 2%;
@@ -139,10 +154,16 @@ span {
 
 .portfolio-header {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 200%;
+    font-size: 350%;
+    text-align: right;
     color: #A0522D;
-    margin-top: 3%;
-    margin-bottom: 1%;
+    margin-top: 5%;
+    text-shadow:
+    -1px -1px 0 #2F4F4F,
+    1px -1px 0 #2F4F4F,
+    -1px 1px 0 #2F4F4F,
+    1px 1px 0 #2F4F4F;
+    /*margin-bottom: 1%;*/
 }
 
 ul {
@@ -159,6 +180,12 @@ ul p {
     display: inline;
 }
 
+.initials {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
 .dev {
     margin-bottom: 7%;
 }
@@ -169,7 +196,7 @@ ul p {
 
 .writing-details {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 150%;
+    font-size: 125%;
     color: #ffffff;
     line-height: 105%;
     margin-left: 5%;
@@ -181,3 +208,4 @@ ul p {
     color: #A0522D;
     line-height: 105%;
 }
+

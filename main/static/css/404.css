@@ -1,0 +1,36 @@
+#image404 {
+    display: block;
+    margin-left: 35%;
+    /*margin-right: 35%;*/
+}
+
+#image404 img {
+    border: 1px solid #ffffff;
+}
+
+#image500 {
+    margin-left: 30%;
+    display: block;
+}
+
+#image500 img {
+    border: 1px solid #ffffff;
+}
+
+#text404 {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%; 
+    text-align: center;
+    color: #ffffff;
+}
+
+p {
+    font-family: "Josefin Sans";
+    font-size: 500%;
+}
+
+body {
+    background-color: #2F4F4F;
+    margin: 0;
+}

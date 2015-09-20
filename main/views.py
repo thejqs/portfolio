@@ -15,4 +15,5 @@ def portfolio(request):
 
 
 def about(request):
+    # assert False
     return render(request, 'about.html')
