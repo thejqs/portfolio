@@ -1,5 +1,5 @@
 .container {
-    max-width: 1500px;
+    max-width: 1700px;
     margin: 0 auto;
 }
 
@@ -13,11 +13,11 @@ section.module h2 {
 }
 
 section.module.dev {
-    margin-bottom: 40px;
+    margin-bottom: 4%;
 }
 
 section.module.content {
-    margin-bottom: 40px;
+    margin-bottom: 4%;
 }
 
 body {
@@ -26,17 +26,18 @@ body {
 }
 
 section.module.parallax {
-    height: 250px;
+    height: 65%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-bottom: 2%;
+    margin-bottom: 3
+    %;
     /*border: 1px solid blue;*/
 }
 
 section.module.parallax1 {
-    background-image: url("../img/pgh.jpg");
-    background-size: 100%;
+    background-image: url("../img/pgh2.jpg");
+    background-size: 125%;
 }
 
 section.module.parallax2 {
@@ -57,6 +58,15 @@ h2 {
     display: inline-block;
 }
 
+h3 {
+    color: #F5F5F5;
+    font-family: "Josefin Sans";
+    font-size: 150%;
+    margin-bottom: 2%;
+    text-align: right;
+    width: 98%;
+}
+
 span {
     color: #A0522D;
 }
@@ -68,13 +78,14 @@ span {
     text-align: center;
     margin: auto;
     width: 65%;
-    color: #ffffff;
-    /*border-bottom: 1px solid #ffffff;*/
+    color: #F5F5F5;
+;
 }
 
 .thejqs-link {
     text-decoration: none;
-    color: #ffffff;
+    color: #F5F5F5;
+;
 }
 
 .thejqs-choice {
@@ -97,7 +108,7 @@ span {
 }
 
 .thejqs-words {
-    color: #ffffff;
+    color: #F5F5F5;
     text-align: center;
     width: 75%;
     font-family: "Josefin Sans";
@@ -107,9 +118,9 @@ span {
 }
 
 .about-words {
-    color: #ffffff;
+    color: #F5F5F5;
     text-align: left;
-    width: 75%;
+    width: 50%;
     font-family: "Josefin Sans";
     font-size: 150%;
     margin: auto;
@@ -127,18 +138,19 @@ span {
     margin-bottom: 2%;
 }
 
-.dev {
-    margin-left: 5%;
+.portfolio-image {
+    width: 95%;
+    display: inline;
+    margin: 2%;
+    /*for media query: margin-top: 2%;*/
+    border: 1px solid #F5F5F5;
 }
 
-.portfolio-image {
-    width: 15%;
+.dev-work {
+    width: 22%;
     display: inline-block;
-    margin-left: 0;
-    margin-right: 2%;
-    /*for media query: margin-top: 2%;*/
-    border: 1px solid #ffffff;
 }
+
 
 .me {
     height: 300px;
@@ -154,15 +166,17 @@ span {
 
 .portfolio-header {
     font-family: "Josefin Sans", sans-serif;
+    display: inline-block;
+    margin-left: 7%;
+    margin-top: 20%;
     font-size: 350%;
-    text-align: right;
+    text-align: center;
     color: #A0522D;
-    margin-top: 5%;
-    text-shadow:
+/*    text-shadow:
     -1px -1px 0 #2F4F4F,
     1px -1px 0 #2F4F4F,
     -1px 1px 0 #2F4F4F,
-    1px 1px 0 #2F4F4F;
+    1px 1px 0 #2F4F4F;*/
     /*margin-bottom: 1%;*/
 }
 
@@ -184,22 +198,35 @@ ul p {
     width: 20%;
     display: block;
     margin: auto;
+    padding-top: 2%;
 }
 
 .dev {
     margin-bottom: 7%;
+    display: inline-block;
+    margin-left: 2%;
 }
 
 .writing {
     padding-bottom: 2%;
 }
 
+/*#dev {
+    color: #F5F5F5;
+}*/
+
 .writing-details {
     font-family: "Josefin Sans", sans-serif;
     font-size: 125%;
-    color: #ffffff;
+    color: #F5F5F5;
     line-height: 105%;
-    margin-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    width: 70%;
+    border-right: 2px dotted #F5F5F5;
+    border-left: 2px dotted #F5F5F5;
+
 }
 
 .writing-story {
@@ -208,4 +235,5 @@ ul p {
     color: #A0522D;
     line-height: 105%;
 }
+
 
