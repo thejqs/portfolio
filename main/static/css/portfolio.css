@@ -56,7 +56,7 @@ a {
 }
 
 .container {
-    max-width: 1700px;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -105,18 +105,21 @@ section.module.parallax2 {
 }
 
 .dev-work {
+    margin-top: 2%;
     width: 22%;
     display: inline-block;
+    /*border: 1px solid green;*/
 }
 
 .portfolio-header {
     font-family: "Josefin Sans", sans-serif;
     display: inline-block;
     margin-left: 7%;
-    margin-top: 20%;
+    margin-top: 22.2%;
     font-size: 350%;
     text-align: center;
     color: #A0522D;
+    /*border: 1px solid red;*/
 /*    text-shadow:
     -1px -1px 0 #2F4F4F,
     1px -1px 0 #2F4F4F,
@@ -139,19 +142,39 @@ ul p {
     display: inline;
 }
 
+.fa-arrow-circle-down {
+    color: #ffffff;
+    /*border: 1px solid green;*/
+    margin-left: 50%;
+    margin-top: 0;
+}
+
 h3 {
     color: #F5F5F5;
     font-family: "Josefin Sans";
     font-size: 150%;
     margin-bottom: 2%;
     text-align: right;
-    height: 90%;
+    width: 98%;
 }
 
 .dev {
-    margin-bottom: 7%;
+    margin-bottom: 2%;
     display: inline-block;
     margin-left: 2%;
+}
+
+.pointer {
+    width: 98%;
+    text-align: center;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.pointer a {
+    color: #F5F5F5;
+    font-family: "Josefin Sans";
+    font-size: 125%;
 }
 
 .writing {
@@ -167,10 +190,9 @@ h3 {
     margin-right: auto;
     padding-left: 2%;
     padding-right: 1%;
-    width: 70%;
+    width: 72%;
     border-right: 2px dotted #F5F5F5;
     border-left: 2px dotted #F5F5F5;
-
 }
 
 .writing-story {
