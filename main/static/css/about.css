@@ -1,26 +1,87 @@
+
 .about-words {
     color: #F5F5F5;
-    text-align: left;
+    display: inline;
+    float: left;
+    text-align: right;
     width: 50%;
     font-family: "Josefin Sans";
     font-size: 150%;
-    margin: auto;
-    margin-top: 2%;
+    margin-left: 10%;
+    /*border: 1px solid red;*/
 }
 
 .me {
-    height: 300px;
-    display: block;
-    margin: auto;
+    width: 20%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
     margin-top: 1%;
     border: 1px solid white;
 }
 
 .thejqs-choice-about {
-    color: black;
+    /*color: black;*/
     font-family: "Josefin Sans";
     text-align: center;
     font-size: 125%;
     width: 35%;
     margin: auto;
+}
+
+header {
+    height: 9%;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-image: url('../img/piggies.jpg');
+    background-size: 100%;
+    background-color: #2F4F4F;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.site-id {
+    text-align: left;
+    margin-left: .5%;
+    margin-top: 1.5%;
+    height: 40%;
+    display: inline-block;
+    float: left;
+    font-size: 125%;
+    /*border: 1px solid red;*/
+}
+
+.site-id a {
+    color: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Josefin Sans";
+}
+
+.nav {
+    margin-top: .3%;
+    text-align: right;
+    height: 40%;
+    float: right;
+    text-decoration: none;
+    margin-right: 3%;
+    /*border: 1px solid blue;*/
+}
+
+.nav a {
+    color: #F5F5F5;
+}
+
+.header-initials {
+    height: 85%;
+    margin-left: 3%;
+    margin-top: .6%;
+    margin-bottom: .6%;
+    display: inline-block;
+    float: left;
+    /*border: 1px solid green;*/
 }
