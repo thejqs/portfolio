@@ -1,0 +1,26 @@
+.about-words {
+    color: #F5F5F5;
+    text-align: left;
+    width: 50%;
+    font-family: "Josefin Sans";
+    font-size: 150%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.me {
+    height: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+    border: 1px solid white;
+}
+
+.thejqs-choice-about {
+    color: black;
+    font-family: "Josefin Sans";
+    text-align: center;
+    font-size: 125%;
+    width: 35%;
+    margin: auto;
+}

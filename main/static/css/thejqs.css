@@ -1,49 +1,9 @@
-.container {
-    max-width: 1700px;
-    margin: 0 auto;
-}
-
-section.module:last-child {
-    margin-bottom: 0;
-}
-
-section.module h2 {
-    margin-bottom: 40px;
-    font-family: "Josefin Sans";
-}
-
-section.module.dev {
-    margin-bottom: 4%;
-}
-
-section.module.content {
-    margin-bottom: 4%;
-}
-
 body {
     background-color: #2F4F4F;
     margin: 0;
 }
 
-section.module.parallax {
-    height: 65%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin-bottom: 3
-    %;
-    /*border: 1px solid blue;*/
-}
 
-section.module.parallax1 {
-    background-image: url("../img/pgh2.jpg");
-    background-size: 125%;
-}
-
-section.module.parallax2 {
-    background-image: url("../img/unsplash4.jpg");
-    background-size: 100%;
-}
 
 h1 {
     margin: 0;
@@ -79,13 +39,11 @@ span {
     margin: auto;
     width: 65%;
     color: #F5F5F5;
-;
 }
 
 .thejqs-link {
     text-decoration: none;
     color: #F5F5F5;
-;
 }
 
 .thejqs-choice {
@@ -98,15 +56,6 @@ span {
     margin-top: 2%;
 }
 
-.thejqs-choice-about {
-    color: black;
-    font-family: "Josefin Sans";
-    text-align: center;
-    font-size: 125%;
-    width: 35%;
-    margin: auto;
-}
-
 .thejqs-words {
     color: #F5F5F5;
     text-align: center;
@@ -115,16 +64,6 @@ span {
     font-size: 150%;
     margin: auto;
     margin-top: 7%;
-}
-
-.about-words {
-    color: #F5F5F5;
-    text-align: left;
-    width: 50%;
-    font-family: "Josefin Sans";
-    font-size: 150%;
-    margin: auto;
-    margin-top: 2%;
 }
 
 .page-id {
@@ -138,61 +77,11 @@ span {
     margin-bottom: 2%;
 }
 
-.portfolio-image {
-    width: 95%;
-    display: inline;
-    margin: 2%;
-    /*for media query: margin-top: 2%;*/
-    border: 1px solid #F5F5F5;
-}
-
-.dev-work {
-    width: 22%;
-    display: inline-block;
-}
-
-
-.me {
-    height: 300px;
-    display: block;
-    margin: auto;
-    margin-top: 1%;
-    border: 1px solid white;
-}
 
 .thejqs-front {
     margin-top: 10%;
 }
 
-.portfolio-header {
-    font-family: "Josefin Sans", sans-serif;
-    display: inline-block;
-    margin-left: 7%;
-    margin-top: 20%;
-    font-size: 350%;
-    text-align: center;
-    color: #A0522D;
-/*    text-shadow:
-    -1px -1px 0 #2F4F4F,
-    1px -1px 0 #2F4F4F,
-    -1px 1px 0 #2F4F4F,
-    1px 1px 0 #2F4F4F;*/
-    /*margin-bottom: 1%;*/
-}
-
-ul {
-    padding-left: 0;
-}
-
-ul li {
-    list-style-type: none; 
-    list-style-position: inside;
-    display: inline;
-}
-
-ul p {
-    display: inline;
-}
 
 .initials {
     width: 20%;
@@ -201,40 +90,6 @@ ul p {
     padding-top: 2%;
 }
 
-.dev {
-    margin-bottom: 7%;
-    display: inline-block;
-    margin-left: 2%;
-}
 
-.writing {
-    padding-bottom: 2%;
-}
-
-/*#dev {
-    color: #F5F5F5;
-}*/
-
-.writing-details {
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 125%;
-    color: #F5F5F5;
-    line-height: 105%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 2%;
-    padding-right: 1%;
-    width: 70%;
-    border-right: 2px dotted #F5F5F5;
-    border-left: 2px dotted #F5F5F5;
-
-}
-
-.writing-story {
-    text-decoration: none;
-    font-family: "Josefin Sans", sans-serif;
-    color: #A0522D;
-    line-height: 105%;
-}
 
 
