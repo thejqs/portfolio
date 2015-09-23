@@ -25,9 +25,23 @@
     color: #ffffff;
 }
 
-p {
+#text404 p {
     font-family: "Josefin Sans";
     font-size: 500%;
+}
+
+#redirect p {
+    font-family: "Josefin Sans";
+    color: #ffffff;
+    font-size: 100%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+p a {
+    font-family: "Josefin Sans";
+    color: #ffffff;
 }
 
 body {
