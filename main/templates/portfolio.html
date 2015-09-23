@@ -6,8 +6,11 @@
 {% endblock %}
 
 {% block content %}
+    <div id="top"></div>
+
+
     <header>
-            <a href="{% url 'thejqs' %}"><img class="header-initials" src="{% static 'img/initials.png' %}" alt=""></a>
+        <a href="{% url 'thejqs' %}"><img class="header-initials" src="{% static 'img/initials.png' %}" alt=""></a>
 
         <div class="site-id">
             <a href="{% url 'thejqs' %}">Jacob Quinn Sanders.</a>
@@ -42,7 +45,6 @@
     <div class="container dev">
     
     <div id="arthur" class="dev-work">
-
     <h3>Arthur.</h3><a href="http://arthur.thejqs.com" target="_blank"><img class="portfolio-image" src="{% static 'img/arthur_film1.jpg' %}" alt=""></a>
     <p class="pointer"><a href="http://github.com/thejqs/doe" target="_blank">repo</a> <span class="fa fa-angle-double-right"></span> <a href="http://arthur.thejqs.com" target="_blank">site</a></p>
     </div>
@@ -61,6 +63,9 @@
     <h3>moviepicker</h3><a href="http://moviepicker.peterhenry.net" target="_blank"><img class="portfolio-image" src="{% static 'img/moviepicker.png' %}" alt=""></a>
     <p class="pointer"><a href="http://github.com/mosbasik/moviepicker" target="_blank">repo</a> <span class="fa fa-angle-double-right"></span> <a href="http://moviepicker.peterhenry.net" target="_blank">site</a></p>
     </div>
+        <div class="arrow">
+        <p><a href="#writing-anchor"><span class="fa fa-arrow-circle-down fa-3x"></span></a></p>
+    </div>
     </div>
     </section>
 
@@ -68,6 +73,7 @@
     <div class="container">
     <h2 id="writing" class="portfolio-header">writing</h2>
     </div>
+
     </section>
 
     <div class="module content">
@@ -82,20 +88,18 @@
     </ul>
 
     <ul class="writing-details"><p>Law enforcement
-        <li><a class="writing-story" href="https://jqsworks.wordpress.com/arkansas-stories/melvin-tyrone-young/" target="_blank">Melvin Tyrone Young</a></li>
+        <li><a class="writing-story" href="https://thejqs.wordpress.com/arkansas-stories/melvin-tyrone-young/" target="_blank">Melvin Tyrone Young</a></li>
         <span class="fa fa-asterisk"></span>
-        <li><a class="writing-story" href="https://jqsworks.wordpress.com/arkansas-stories/tasers/" target="_blank">Tasers</a></li>
+        <li><a class="writing-story" href="https://thejqs.wordpress.com/arkansas-stories/tasers/" target="_blank">Tasers</a></li>
         <span class="fa fa-asterisk"></span>
-        <li><a class="writing-story" href="https://jqsworks.wordpress.com/arkansas-stories/baring-cross/" target="_blank">Baring Cross</a></li>
+        <li><a class="writing-story" href="https://thejqs.wordpress.com/arkansas-stories/baring-cross/" target="_blank">Baring Cross</a></li>
         <span class="fa fa-asterisk"></span>
-        <li><a class="writing-story" href="https://jqsworks.wordpress.com/arkansas-stories/b-t/" target="_blank">B.T. Carmical</a></li>
+        <li><a class="writing-story" href="https://thejqs.wordpress.com/arkansas-stories/b-t/" target="_blank">B.T. Carmical</a></li>
         <span class="fa fa-asterisk"></span>
-        <li><a class="writing-story" href="https://jqsworks.wordpress.com/arkansas-stories/jacksonville/" target="_blank">Jacksonville</a></li>
+        <li><a class="writing-story" href="https://thejqs.wordpress.com/arkansas-stories/jacksonville/" target="_blank">Jacksonville</a></li>
         <span class="fa fa-asterisk"></span>
-        <li><a class="writing-story" href="https://jqsworks.wordpress.com/oregon-stories/fatal-silence/" target="_blank">Fatal silence</a></li></p>
+        <li><a class="writing-story" href="https://thejqs.wordpress.com/oregon-stories/fatal-silence/" target="_blank">Fatal silence</a></li></p>
     </ul>
-
-
 
     <ul class="writing-details"><p>History and personal
         <li><a class="writing-story" href="http://newsinteractive.post-gazette.com/thedigs/2015/04/15/east-liberty-pittsburgh-pothole/" target="_blank">The pothole that swallowed Christine Contillo</a></li>
@@ -107,6 +111,10 @@
         <li><a class="writing-story" href="https://georgerede.wordpress.com/2015/08/17/too-much-white/" target="_blank">Too much white</a></li></p>
     </ul>
     </div>
+    </div>
+        <div id="writing-anchor"></div>
 
+    <div class="arrow">
+        <a href="#top"><span class="fa fa-arrow-circle-up fa-3x"></span></a>
     </div>
 {% endblock %}

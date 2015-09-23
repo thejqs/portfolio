@@ -1,4 +1,19 @@
 
+.page-id-about {
+    color: #A0522D;
+    width: 20%;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 500%;
+    font-family: "Josefin Sans", sans-serif;
+    margin-left: 40%;
+    /*border: 1px solid red;*/
+}
+
+.wrapper {
+    margin-top: 5%;
+}
+
 .about-words {
     color: #F5F5F5;
     display: inline;
@@ -21,12 +36,11 @@
 }
 
 .thejqs-choice-about {
-    /*color: black;*/
     font-family: "Josefin Sans";
     text-align: center;
     font-size: 125%;
-    width: 35%;
-    margin: auto;
+    width: 100%;
+    margin-left: auto;
 }
 
 header {
@@ -67,7 +81,7 @@ a {
     margin-top: .7%;
     text-align: right;
     height: 50%;
-    font-size: 110%;
+    font-size: 100%;
     float: right;
     text-decoration: none;
     margin-right: 3%;
@@ -85,4 +99,56 @@ a {
     display: inline-block;
     float: left;
     /*border: 1px solid green;*/
+}
+
+@media only screen and (max-width: 1300px) {
+    .me {
+        width: 35%;
+        margin-top: 3%;
+    }
+  
+}
+
+@media only screen and (max-width: 900px) {
+    .page-id-about {
+        margin-top: 13%;
+        font-size: 400%;
+        padding-bottom: 1%;
+        /*border: 1px solid red;*/
+    }
+
+    .me {
+        margin-top: 4.5%;
+    }
+
+    .site-id {
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .page-id-about {
+        margin-top: 25%;
+        font-size: 300%;
+        padding-bottom: 1%;
+        /*border: 1px solid red;*/
+    }
+
+    .site-id {
+        margin-left: .5%;
+        margin-top: 4%;
+        /*border: 1px solid red;*/
+    }
+
+    .about-words {
+        display: inline;
+        width: 50%;
+        font-size: 100%;
+        margin-left: 5%;
+        /*border: 1px solid red;*/
+    }
+
+    .me {
+        margin-top: 3.5%;
+    }
 }

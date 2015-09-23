@@ -12,6 +12,11 @@ header {
     /*padding-bottom: .5%;*/
 }
 
+#top {
+    position: absolute;
+    top: -1000px;
+}
+
 .site-id {
     text-align: left;
     margin-left: .5%;
@@ -30,6 +35,10 @@ header {
 a {
     text-decoration: none;
     font-family: "Josefin Sans";
+}
+
+p a:hover {
+    color: #A0522D;
 }
 
 .nav {
@@ -120,12 +129,6 @@ section.module.parallax2 {
     text-align: center;
     color: #A0522D;
     /*border: 1px solid red;*/
-/*    text-shadow:
-    -1px -1px 0 #2F4F4F,
-    1px -1px 0 #2F4F4F,
-    -1px 1px 0 #2F4F4F,
-    1px 1px 0 #2F4F4F;*/
-    /*margin-bottom: 1%;*/
 }
 
 ul {
@@ -149,6 +152,18 @@ ul p {
     margin-top: 0;
 }
 
+.fa-arrow-circle-up {
+    color: #ffffff;
+    /*border: 1px solid green;*/
+    margin-left: 50%;
+    margin-top: 0;
+    padding-bottom: 2%;
+}
+
+#top {
+    top: 0;
+}
+
 h3 {
     color: #F5F5F5;
     font-family: "Josefin Sans";
@@ -156,6 +171,26 @@ h3 {
     margin-bottom: 2%;
     text-align: right;
     width: 98%;
+}
+
+/*h3:hover {
+    color: #A0522D;
+}*/
+
+.writing-story:hover {
+    color: #F5F5F5;
+}
+
+.page-id {
+    color: #A0522D;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 500%;
+    font-family: "Josefin Sans", sans-serif;
+    margin-left: auto;
+    padding-bottom: 2%;
+    /*border: 1px solid red;*/
 }
 
 .dev {
@@ -178,7 +213,6 @@ h3 {
 }
 
 .writing {
-    padding-bottom: 2%;
 }
 
 .writing-details {
@@ -200,4 +234,61 @@ h3 {
     font-family: "Josefin Sans", sans-serif;
     color: #A0522D;
     line-height: 105%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .page-id {
+        margin-top: 13%;
+        font-size: 400%;
+        padding-bottom: 1%;
+        /*border: 1px solid red;*/
+    }
+
+    .portfolio-header {
+        margin-left: 3%;
+        margin-top: 35%;
+        font-size: 250%;
+        /*border: 1px solid red;*/
+    }
+}
+
+
+@media only screen and (max-width: 760px) {
+    h3 {
+        font-size: 125%;
+        margin-bottom: 3%;
+    }
+
+    .dev-work {
+        margin-top: 2%;
+        width: 40%;
+        display: inline-block;
+        /*border: 1px solid green;*/
+    }
+
+}
+
+@media only screen and (max-width: 580px) {
+    .page-id {
+        margin-top: 25%;
+        font-size: 300%;
+        padding-bottom: 1%;
+        /*border: 1px solid red;*/
+    }
+
+    .site-id {
+        margin-left: .5%;
+        margin-top: 4%;
+        /*border: 1px solid red;*/
+    }
+
+    .portfolio-header {
+        margin-left: 3%;
+        margin-top: 20%;
+    }
+
+    section.module.parallax2 {
+        background-size: 250%;
+    }
 }
