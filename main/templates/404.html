@@ -6,19 +6,18 @@
 </head>
 
 <body>
-<div id="text404">
 
-    <p>UH-OH?</p>
-    
-</div>
-
-<div id="redirect">
-    <p>Maybe you should start over on the <a href="{% url 'thejqs' %}">main page</a>.</p>
-</div>
 
 <div id="image404">
 
-    <img src="http://media.tumblr.com/tumblr_m6i3q3L5Fe1r3hr9y.gif" alt="">
+    <img src="{% static 'img/zebra.gif' %}" alt="">
 
 </div>
+
+<div id="redirect">
+    <p>This, um. This doesn't look like the right place.</p>
+    <p>Maybe you should start over on the <a href="{% url 'thejqs' %}">main page</a>.</p>
+</div>
+
+
 </body>
