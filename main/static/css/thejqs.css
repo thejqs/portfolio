@@ -30,6 +30,14 @@ span {
     color: #F5F5F5;
 }
 
+.subhead {
+    margin: auto;
+    font-family: "Josefin Sans";
+    text-align: center;
+    color: #F5F5F5;
+    font-size: 100%;
+}
+
 .thejqs-link {
     text-decoration: none;
     color: #F5F5F5;
@@ -41,7 +49,7 @@ span {
     font-size: 125%;
     width: 35%;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .thejqs-words {
@@ -95,7 +103,11 @@ span {
     }
 
     .initials {
-       width: 60%;
+       width: 50%;
+    }
+
+    #thejqs {
+        font-size: 150%;
     }
 }
 
