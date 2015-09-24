@@ -279,17 +279,23 @@ h3 {
 
     .site-id {
         margin-left: .5%;
-        margin-top: 4%;
+        margin-top: 3.5%;
+        height: 35%; 
         /*border: 1px solid red;*/
     }
 
+    .nav {
+        margin-top: 0%;
+    }
+
     .portfolio-header {
-        font-size: 200%;
-        margin-left: 3%;
-        margin-top: 25%;
+        font-size: 175%;
+        margin-left: 2%;
+        margin-top: 55%;
+        margin-bottom: 0%;
     }
 
     section.module.parallax2 {
-        background-size: 275%;
+        background-size: 150%;
     }
 }
