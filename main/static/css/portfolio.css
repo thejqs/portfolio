@@ -288,10 +288,16 @@ h3 {
         margin-top: 0%;
     }
 
+    .portfolio-header.dheader {
+        color: #F5F5F5;
+    }
+
     .portfolio-header {
-        font-size: 175%;
+        font-size: 200%;
+        width: 100%;
+        text-align: center;
         margin-left: 2%;
-        margin-top: 55%;
+        margin-top: 45%;
         margin-bottom: 0%;
     }
 
