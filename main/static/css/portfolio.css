@@ -123,6 +123,7 @@ section.module.parallax2 {
     display: inline-block;
     margin-left: 7%;
     margin-top: 22.2%;
+    margin-bottom: 0;
     font-size: 350%;
     text-align: center;
     color: #A0522D;
@@ -144,15 +145,13 @@ ul p {
 }
 
 .fa-arrow-circle-down {
-    color: #ffffff;
-    /*border: 1px solid green;*/
+    color: #F5F5F5;
     margin-left: 50%;
     margin-top: 0;
 }
 
 .fa-arrow-circle-up {
-    color: #ffffff;
-    /*border: 1px solid green;*/
+    color: #F5F5F5;
     margin-left: 50%;
     margin-top: 0;
     padding-bottom: 4%;
