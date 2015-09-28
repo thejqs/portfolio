@@ -286,10 +286,6 @@ h3 {
         margin-top: 0%;
     }
 
-   /* .portfolio-header.dheader {
-        color: #F5F5F5;
-    }
-*/
     .portfolio-header {
         font-size: 200%;
         width: 100%;
@@ -297,6 +293,10 @@ h3 {
         margin-left: 2%;
         margin-top: 35%;
         margin-bottom: 0%;
+    }
+
+    .portfolio-header.wheader {
+        margin-top: 40%;
     }
 
     section.module.parallax2 {
