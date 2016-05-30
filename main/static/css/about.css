@@ -45,7 +45,7 @@
 }
 
 header {
-    height: 8%;
+    height: 15%;
     top: 0;
     position: fixed;
     width: 100%;
@@ -107,7 +107,7 @@ a {
         width: 35%;
         margin-top: 3%;
     }
-  
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -128,6 +128,10 @@ a {
 }
 
 @media only screen and (max-width: 580px) {
+    header {
+        height: 12vw;
+    }
+
     .page-id-about {
         margin-top: 25%;
         font-size: 300%;
@@ -137,8 +141,13 @@ a {
 
     .site-id {
         margin-left: .5%;
-        margin-top: 4%;
+        margin-top: 2vw;
+        font-size: 5vw;
         /*border: 1px solid red;*/
+    }
+
+    .nav {
+        margin-top: -3vw;
     }
 
     .about-words {
@@ -150,6 +159,7 @@ a {
     }
 
     .me {
-        margin-top: 3.5%;
+        position: fixed;
+        margin-top: 6vw;
     }
 }
